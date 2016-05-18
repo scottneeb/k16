@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>true</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_gametimenow_game</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name/>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>&lt;p&gt;&amp;nbsp;&lt;/p&gt;<br />&lt;table width="100%"&gt;<br />&lt;tbody&gt;<br />&lt;tr&gt;<br />&lt;td&gt;<br />&lt;table style="width: 800px; height: 575px; background:<br />url('http://s30.postimg.org/ghj65vrep/sn_basketball_bg.jpg'); bordercollapse:<br />collapse;" width="800"&gt;<br />&lt;tbody&gt;<br />&lt;tr&gt;<br />&lt;td colspan="4" height="260"&gt;&amp;nbsp;&lt;/td&gt;<br />&lt;/tr&gt;<br />&lt;tr&gt;<br />&lt;td&gt;&amp;nbsp;&lt;/td&gt;<br />&lt;td id="button-wrapper" style="background: url('/bball_email_in.png')<br />no-repeat center; text-align: center;" width="310" height="140"&gt;&lt;a<br />style="text-decoration: none; line-height: 140px; margin: 0; padding:<br />0; font-family: Arial, Helvetica; font-size: 40px; font-weight: bold;<br />color: #fff;"<br />href="/x_gametimenow_insert_game_player.do?playing=true"&gt;YES&lt;/a&gt;&lt;/td&gt;<br />&lt;td style="background: url('/bball_email_out.png') no-repeat center;<br />text-align: center;" width="310" height="140"&gt;&lt;a style="textdecoration:<br />none; line-height: 140px; margin: 0; padding: 0; fontfamily:<br />Arial, Helvetica; font-size: 40px; font-weight: bold; color:<br />#fff;" href="/x_gametimenow_insert_game_player.do?playing=false"&gt;NO&lt;/a&gt;&lt;/td&gt;<br />&lt;td&gt;&amp;nbsp;&lt;/td&gt;<br />&lt;/tr&gt;<br />&lt;tr&gt;<br />&lt;td&gt;&amp;nbsp;&lt;/td&gt;<br />&lt;td style="height: 100px; text-align: center; color: white;"<br />colspan="2"&gt;Click &lt;a style="color: #d11e26;"<br />href="/sn_bball_SN%20BBall.do"&gt;HERE&lt;/a&gt; to see who's playing.&lt;/td&gt;<br />&lt;td&gt;&amp;nbsp;&lt;/td&gt;<br />&lt;/tr&gt;<br />&lt;tr&gt;</p>
+<p>&lt;td style="background-color: black; text-align: center; height: 75px;"<br />colspan="4"&gt;<br />&lt;p style="margin: 0; padding: 0; font-family: Arial, Helvetica; fontsize:<br />12px; color: #fff; padding-top: 16px; text-align:<br />center;"&gt;ServiceNow Basketball&lt;/p&gt;<br />&lt;/td&gt;<br />&lt;/tr&gt;<br />&lt;/tbody&gt;<br />&lt;/table&gt;<br />&lt;/td&gt;<br />&lt;/tr&gt;<br />&lt;/tbody&gt;<br />&lt;/table&gt;<br />&lt;p&gt;&amp;nbsp;&lt;/p&gt;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>SN BBall Notification</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users>5137153cc611227c000bbd1bd8cd2005,5137153cc611227c000bbd1bd8cd2007</recipient_users>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Are you in?</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2016-05-18 21:48:54</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cc7cbad8982312007f44f128006c6944</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SN BBall Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="GameTimeNow" source="x_gametimenow">b1cbe258982312007f44f128006c69f1</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="GameTimeNow">b1cbe258982312007f44f128006c69f1</sys_scope>
+        <sys_update_name>sysevent_email_action_cc7cbad8982312007f44f128006c6944</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-05-18 21:48:54</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
